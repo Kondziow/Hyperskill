@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4aa6ef-6b5d-4231-a3ad-10e0e2afc8b6" name="Default Changelist" comment="aaa">
-      <change beforePath="$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/A simple calculator/Cinema_Room_Manager.Topics-Switch_statement-A_simple_calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/A simple calculator/Cinema_Room_Manager.Topics-Switch_statement-A_simple_calculator.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/A simple calculator/Cinema_Room_Manager.Topics-Switch_statement-A_simple_calculator.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/A simple calculator/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/A simple calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/A simple calculator/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/A simple calculator/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/The mystery of switch statement/answer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/The mystery of switch statement/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/The mystery of switch statement/task-remote-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/The mystery of switch statement/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Switch statement/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Switch statement/lesson-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +81,7 @@
     "Edu.Yaml.Migrate": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/!Moje/Kurs Java/HyperSkill/Cinema Room Manager",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
@@ -87,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678733763470</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aaa">
+      <created>1678734110656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678734110656</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
