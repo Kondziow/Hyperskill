@@ -4,62 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae4aa6ef-6b5d-4231-a3ad-10e0e2afc8b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Cinema_Room_Manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Theory/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Theory/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Theory/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/Theory/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cinema Room Manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Arrangement/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Arrangement/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Arrangement/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Arrangement/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Errors!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Errors!/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Errors!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Errors!/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Menu, please!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Menu, please!/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Menu, please!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Menu, please!/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Sold!/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Sold!/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Sold!/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Sold!/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Tickets/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Tickets/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/Tickets/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/Tickets/task-remote-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/lesson-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/task/test/CinemaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/task/test/CinemaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+    <list default="true" id="ae4aa6ef-6b5d-4231-a3ad-10e0e2afc8b6" name="Default Changelist" comment="aaa">
+      <change beforePath="$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Switch statement/Shape/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +36,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1e039a07-d84b-45f9-b5d4-ee6dc5904b71" />
+        <option name="url" value="git@github.com:Kondziow/Hyperskill.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MnOfC2GocpXsX6s8TfXIKFwkew" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -99,7 +62,6 @@
     "Edu.Yaml.Migrate": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/!Moje/Kurs Java/HyperSkill/Cinema Room Manager",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
@@ -118,9 +80,21 @@
       <workItem from="1678399983093" duration="457000" />
       <workItem from="1678723458422" duration="47000" />
     </task>
+    <task id="LOCAL-00001" summary="aaa">
+      <created>1678733763470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678733763470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
   </component>
 </project>
