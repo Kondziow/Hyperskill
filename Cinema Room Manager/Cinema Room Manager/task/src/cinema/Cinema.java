@@ -10,20 +10,39 @@ public class Cinema {
     private static final int BACK_PRICE = 8;
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         int dimensions[] = readDimensions();
         int rows = dimensions[0];
         int columns = dimensions[1];
         String cinema[][] = new String[rows][columns];
-        makeCinema(rows, columns, cinema);
-        printCinema(rows, columns, cinema);
+        makeCinema(cinema);
 
-        selectSeat(cinema);
-        printCinema(rows, columns, cinema);
+        while(true) {
+            boolean exit = false;
+            int option = showMenu();
 
+            switch (option){
+                case 0:
+                    exit = true;
+                    break;
+                case 1:
+                    printCinema(cinema);
+                    break;
+                case 2:
+                    selectSeat(cinema);
+                    break;
+            }
+            if(exit)
+                break;
+        }
 
     }
-
+    private static int showMenu(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("1. Show the seats");
+        System.out.println("2. Buy a ticket");
+        System.out.println("0. Exit");
+        return scanner.nextInt();
+    }
     private static void calculatePrice(int row, int countOfRows, int countOfColumns) {
         System.out.println();
         if (countOfRows * countOfColumns <= SMALL_HALL) {
@@ -49,9 +68,9 @@ public class Cinema {
 
     }
 
-    private static void makeCinema(int rows, int columns, String cinema[][]) {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+    private static void makeCinema(String cinema[][]) {
+        for (int i = 0; i < cinema.length; i++) {
+            for (int j = 0; j < cinema[0].length; j++) {
                 if (i == 0) {
                     if (j == 0) cinema[i][j] = " ";
                     else cinema[i][j] = String.valueOf(j);
@@ -82,10 +101,10 @@ public class Cinema {
         }
     }
 
-    private static void printCinema(int rows, int columns, String cinema[][]) {
+    private static void printCinema(String cinema[][]) {
         System.out.println("Cinema:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < cinema.length; i++) {
+            for (int j = 0; j < cinema[0].length; j++) {
                 System.out.print(cinema[i][j] + " ");
             }
             System.out.println();

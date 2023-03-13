@@ -5,66 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4aa6ef-6b5d-4231-a3ad-10e0e2afc8b6" name="Default Changelist" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.3.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/The sign of a number/Cinema_Room_Manager.Topics-Declaring_a_method-The_sign_of_a_number.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/The sign of a number/Cinema_Room_Manager.Topics-Declaring_a_method-The_sign_of_a_number.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/The sign of a number/Cinema_Room_Manager.Topics-Declaring_a_method-The_sign_of_a_number.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Theory/Cinema_Room_Manager.Topics-Declaring_a_method-Theory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Theory/Cinema_Room_Manager.Topics-Declaring_a_method-Theory.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Theory/Cinema_Room_Manager.Topics-Declaring_a_method-Theory.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/src/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task-remote-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Declaring a method/lesson-info.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topics/Switch statement/A simple calculator/out/production/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678739292674</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aaa">
+      <created>1678741040857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678741040857</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
