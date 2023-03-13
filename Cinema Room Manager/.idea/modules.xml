@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Cinema Room Manager.iml" filepath="$PROJECT_DIR$/.idea/Cinema Room Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema_Room_Manager.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema_Room_Manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Cinema Room Manager/task/Cinema_Room_Manager.Cinema_Room_Manager-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Shape/Cinema_Room_Manager.Topics-Switch_statement-Shape.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Topics/Switch statement/Theory/Cinema_Room_Manager.Topics-Switch_statement-Theory.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Cinema_Room_Manager.util.test.iml" />
     </modules>
   </component>
 </project>
