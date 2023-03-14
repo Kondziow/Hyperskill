@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4aa6ef-6b5d-4231-a3ad-10e0e2afc8b6" name="Default Changelist" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Find the max of three numbers/Cinema_Room_Manager.Topics-Declaring_a_method-Find_the_max_of_three_numbers.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Topics/Declaring a method/Method signature/Cinema_Room_Manager.Topics-Declaring_a_method-Method_signature.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/task/src/cinema/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema Room Manager/task/test/CinemaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cinema Room Manager/task/test/CinemaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Declaring a method/Method signature/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Topics/Declaring a method/Theory/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678741040857</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aaa">
+      <created>1678741720027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678741720027</updated>
+    </task>
+    <task id="LOCAL-00007" summary="aaa">
+      <created>1678741727795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678741727795</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
