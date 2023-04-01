@@ -10,6 +10,8 @@ public class Field {
     private final static int fieldSize = 11;   //pole do gry -> 10
     private final static char fogOfWar = '~';
     private final static char placedShip = 'O';
+    private final static char missed = 'M';
+    private final static char hit = 'X';
     private final static char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     private final char[][] field;
     private ArrayList<Ship> listOfShips = new ArrayList<Ship>();
@@ -17,6 +19,23 @@ public class Field {
     public Field() {
         field = new char[fieldSize][fieldSize];
         InitField();
+    }
+
+    public void shoot(char letter, char number){
+        char let = (char) (letter - 'A' + 1);
+        int num = number - '0';
+        if(this.field[let][num] == placedShip){
+            this.field[let][num] = hit;
+            printFoggedField();
+            System.out.printf("You hit a ship!\n");
+        }
+        else {
+            this.field[let][num] = missed;
+            printFoggedField();
+            System.out.println("You missed!\n");
+        }
+
+
     }
 
     private void InitField() {
@@ -38,6 +57,19 @@ public class Field {
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+    public void printFoggedField() {
+        for (int i = 0; i < fieldSize; i++) {
+            for (int j = 0; j < fieldSize; j++) {
+                if (field[i][j] == ':') System.out.print("10");
+                else if(field[i][j] == placedShip) System.out.print(fogOfWar + " ");
+                else System.out.print(field[i][j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 
     public void placeShip(Ship ship, char letter1, char number1, char letter2, char number2) {

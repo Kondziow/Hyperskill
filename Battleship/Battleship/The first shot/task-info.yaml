@@ -450,6 +450,318 @@ files:
         }
     }
   learner_created: false
+- name: src/battleship/ships/Cruiser.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public class Cruiser extends Ship{
+        public Cruiser() {
+            super(3, "Cruiser");
+        }
+    }
+  learner_created: true
+- name: src/battleship/ships/Destroyer.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public class Destroyer extends Ship{
+        public Destroyer() {
+            super(2, "Destroyer");
+        }
+    }
+  learner_created: true
+- name: src/battleship/Field.java
+  visible: true
+  text: |
+    package battleship;
+
+    import battleship.ships.AircraftCarrier;
+    import battleship.ships.Ship;
+
+    import java.util.ArrayList;
+    import java.util.Scanner;
+
+    public class Field {
+        private final static int fieldSize = 11;   //pole do gry -> 10
+        private final static char fogOfWar = '~';
+        private final static char placedShip = 'O';
+        private final static char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+        private final char[][] field;
+        private ArrayList<Ship> listOfShips = new ArrayList<Ship>();
+
+        public Field() {
+            field = new char[fieldSize][fieldSize];
+            InitField();
+        }
+
+        private void InitField() {
+            for (int i = 0; i < fieldSize; i++) {   //wiersz - i
+                for (int j = 0; j < fieldSize; j++) {    //kolumna - j
+                    if (i == 0 && j == 0) field[i][j] = ' ';
+                    else if (i == 0) field[i][j] = (char) (j + '0'); //pierwszy wiersz -> numer kolumny
+                    else if (j == 0) field[i][j] = letters[i - 1];//pierwsza kolumna -> litera wiersza
+                    else field[i][j] = fogOfWar;
+                }
+            }
+        }
+
+        public void printField() {
+            for (int i = 0; i < fieldSize; i++) {
+                for (int j = 0; j < fieldSize; j++) {
+                    if (field[i][j] == ':') System.out.print("10");
+                    else System.out.print(field[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
+
+        public void placeShip(Ship ship, char letter1, char number1, char letter2, char number2) {
+            ship.placeShip(letter1, number1, letter2, number2);
+            listOfShips.add(ship);
+
+            for (int i = 0; i < ship.getLength(); i++) {
+                int letterPosition = 0;
+                int numberPosition = (ship.getPosition()[1][i] - '0');
+                for (int j = 0; j < letters.length; j++)
+                    if (ship.getPosition()[0][i] == letters[j]) {
+                        letterPosition = j + 1;
+                        break;
+                    }
+                field[letterPosition][numberPosition] = placedShip;
+            }
+        }
+
+        public boolean canPlace(char letter1, char number1, char letter2, char number2, int length) {
+
+            if (letter1 > letter2) {
+                char temp = letter1;
+                letter1 = letter2;
+                letter2 = temp;
+            }
+            if (number1 > number2) {
+                char temp = number1;
+                number1 = number2;
+                number2 = temp;
+            }
+            char let1 = (char) (letter1 - 'A' + 1);
+            char let2 = (char) (letter2 - 'A' + 1);
+            for (int i = let1; i <= let2; i++) {
+                for (int j = (number1 - '0'); j <= (number2 - '0'); j++) {
+                    for (int x = -1; x <= 1; x++) {
+                        for (int y = -1; y <= 1; y++) {
+                            if(i+x > 0 && i+x < field.length && j + y > 0 && j + y < field.length)
+                                if (field[i + x][j + y] == placedShip) return false;
+                        }
+                    }
+                }
+            }
+            return true;
+        }
+
+    }
+  learner_created: true
+- name: src/battleship/ships/AircraftCarrier.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public class AircraftCarrier extends Ship {
+        public AircraftCarrier() {
+            super(5, "Aircraft Carrier");
+        }
+    }
+  learner_created: true
+- name: src/battleship/ships/Ship.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public abstract class Ship {
+        private final static char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+        private int length;
+        private String name;
+        private char[][] position;     //[0,:] - literka, [1,:] - cyferka
+
+        public Ship(int length, String name) {
+            this.length = length;
+            position = new char[2][length];
+            this.name = name;
+        }
+
+        public void placeShip(char letter1, char number1,char letter2, char number2){
+            if(letter1 == letter2){
+                if(number1 > number2){
+                    char temp = number1;
+                    number1 = number2;
+                    number2 = temp;
+                }
+                for(int i = 0; i < length; i++){
+                    position[0][i] = letter1 ;
+                    position[1][i] = (char) (number1 + (char)i);
+                    //System.out.println(position[1][i]);
+                }
+            } else if (number1 == number2) {
+                if(letter1 > letter2){
+                    char temp = letter1;
+                    letter1 = letter2;
+                    letter2 = temp;
+                }
+                for(int i = 0; i < length; i++){
+                    position[0][i] = (char) (letter1 + (char)i);
+                    position[1][i] = number1;
+                    //System.out.println(position[0][i]);
+                }
+            }
+        }
+
+        public int getLength() {
+            return length;
+        }
+
+        public char[][] getPosition() {
+            return position;
+        }
+
+        public void setLength(int length) {
+            this.length = length;
+        }
+
+        public void setPosition(char[][] position) {
+            this.position = position;
+        }
+
+        public String getName() {
+            return name;
+        }
+    }
+  learner_created: true
+- name: src/battleship/ships/Battleship.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public class Battleship extends Ship{
+        public Battleship() {
+            super(4, "Battleship");
+        }
+    }
+  learner_created: true
+- name: src/battleship/ships/Submarine.java
+  visible: true
+  text: |
+    package battleship.ships;
+
+    public class Submarine extends Ship{
+
+        public Submarine() {
+            super(3, "Submarine");
+        }
+    }
+  learner_created: true
+- name: src/battleship/Game.java
+  visible: true
+  text: |
+    package battleship;
+
+    import battleship.ships.*;
+
+    import java.util.Scanner;
+
+    public class Game {
+        private Field field;
+
+        public void start() {
+            char[] tab;
+            Ship ship;
+            Ship ships[] = {new AircraftCarrier(), new Battleship(), new Submarine(), new Cruiser(), new Destroyer()};
+
+            for(int i = 0; i < 5; i++){
+                ship = ships[i];
+                tab = readCordsToPlaceShip(ship.getLength(), ship.getName());
+                this.field.placeShip(ship, tab[0], tab[1], tab[2], tab[3]);
+                this.field.printField();
+            }
+
+            /*ship = new AircraftCarrier();
+            tab = readCordsToPlaceShip(ship.getLength(), ship.getName());
+            this.field.placeShip(ship, tab[0], tab[1], tab[2], tab[3]);
+            this.field.printField();
+
+            ship = new Battleship();
+            tab = readCordsToPlaceShip(4);
+            this.field.placeShip(new Battleship(), tab[0], tab[1], tab[2], tab[3]);
+            this.field.printField();
+
+            ship = new Battleship();
+            tab = readCordsToPlaceShip(3);
+            this.field.placeShip(new Submarine(), tab[0], tab[1], tab[2], tab[3]);
+            this.field.printField();
+
+            ship = new Battleship();
+            tab = readCordsToPlaceShip(3);
+            this.field.placeShip(new Cruiser(), tab[0], tab[1], tab[2], tab[3]);
+            this.field.printField();
+
+            ship = new Battleship();
+            tab = readCordsToPlaceShip(2);
+            this.field.placeShip(new Destroyer(), tab[0], tab[1], tab[2], tab[3]);
+            this.field.printField();*/
+        }
+
+        private char[] readCordsToPlaceShip(int length, String shipName) {
+            System.out.println("Enter the coordinates of the " + shipName + " (" + length + " cells):");
+            boolean done = false;
+            char letter1 = 0;
+            char number1 = 0;
+            char letter2 = 0;
+            char number2 = 0;
+            int num1 = 0;
+            int num2 = 0;
+            while (!done) {
+                done = true;
+                Scanner scanner = new Scanner(System.in);
+
+                String input = scanner.next();
+                letter1 = input.charAt(0);
+                number1 = input.charAt(1);
+                if(input.length() == 3) number1+= 9;
+
+
+                input = scanner.next();
+                letter2 = input.charAt(0);
+                number2 = input.charAt(1);
+                if(input.length() == 3) number2+= 9;
+
+                if (Math.abs(letter1 - letter2) + 1 != length && Math.abs(number1 - number2) + 1 != length) {   //Jezeli dlugosc nieodpowiednia
+                    done = false;
+                    System.out.println("Error! Wrong length of the " + shipName + "! Try again:");
+                } else if (letter1 != letter2 && number1 != number2) {  //Jezeli nie w lini prostej
+                    done = false;
+                    System.out.println("Error! Wrong " + shipName + " location! Try again:");
+                } else if (!field.canPlace(letter1, number1, letter2, number2, length)) {
+                    done = false;
+                    System.out.println("Error! You placed it too close to another one. Try again:");
+                }
+            }
+
+            char[] tab = new char[]{letter1, number1, letter2, number2};
+            return tab;
+        }
+
+        public Game() {
+            this.field = new Field();
+        }
+
+        public Field getField() {
+            return field;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10595#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 27 Mar 2023 18:11:23 UTC"
+record: 2
