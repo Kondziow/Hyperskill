@@ -11,8 +11,9 @@ public class Game {
         char[] tab;
         Ship ship;
         Ship ships[] = {new AircraftCarrier(), new Battleship(), new Submarine(), new Cruiser(), new Destroyer()};
+        //Ship ships[] = {new AircraftCarrier()};
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < ships.length; i++) {
             ship = ships[i];
             tab = readCordsToPlaceShip(ship.getLength(), ship.getName());
             this.field.placeShip(ship, tab[0], tab[1], tab[2], tab[3]);
@@ -21,9 +22,11 @@ public class Game {
 
         System.out.println("The game starts!\n");
         field.printFoggedField();
-
-        shoot();
-        field.printField();
+        System.out.println("Take a shot!\n");
+        while(!this.field.isEndOfGame()) {
+            shoot();
+        }
+       // field.printField();
 
     }
 
@@ -33,7 +36,6 @@ public class Game {
     }
 
     private char[] readCordsToShoot() {
-        System.out.println("Take a shot!\n");
         char letter = 0;
         char number = 0;
 

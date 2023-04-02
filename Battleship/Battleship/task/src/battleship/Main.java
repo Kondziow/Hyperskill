@@ -7,7 +7,7 @@ public class Main {
         game.getField().printField();
         game.start();
         //game.getField().placeShips();
-        game.getField().printField();
+        //game.getField().printField();
        /* Field field = new Field();
         field.printField();
         field.placeShips();

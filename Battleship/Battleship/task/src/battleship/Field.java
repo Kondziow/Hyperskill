@@ -15,24 +15,57 @@ public class Field {
     private final static char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     private final char[][] field;
     private ArrayList<Ship> listOfShips = new ArrayList<Ship>();
+    private boolean endOfGame;
 
+    public boolean checkShipSanked(char letter, char number){
+        for(Ship ship : listOfShips){
+            for(int i = 0; i < ship.getLength(); i++){
+                if(ship.getPosition()[0][i] == letter && ship.getPosition()[1][i] == number){   //Znajdujemy czy to pole nalezy do statku
+                    char[][] shipPosition = ship.getPosition();
+                    for(int j = 0; j < ship.getLength(); j++){
+                         if(field[shipPosition[0][j] - 'A' + 1][shipPosition[1][j] - '0'] == placedShip) return false;
+                    }
+                    return true;
+                }
+            }
+        }
+        return true;
+    }
+    public void checkEndOfGame(){
+        for(int i = 1; i < fieldSize; i++){
+            for (int j = 1; j < fieldSize; j++){
+                if(field[i][j] == placedShip){
+                    return;
+                }
+            }
+        }
+        this.endOfGame = true;
+    }
+
+    public boolean isEndOfGame(){
+        return endOfGame;
+    }
     public Field() {
         field = new char[fieldSize][fieldSize];
         InitField();
+        endOfGame = false;
     }
 
     public void shoot(char letter, char number){
         char let = (char) (letter - 'A' + 1);
         int num = number - '0';
-        if(this.field[let][num] == placedShip){
+        if(this.field[let][num] == placedShip || this.field[let][num] == hit){
             this.field[let][num] = hit;
             printFoggedField();
-            System.out.printf("You hit a ship!\n");
+            checkEndOfGame();
+            if(endOfGame) System.out.println("You sank the last ship. You won. Congratulations!");
+            else if(checkShipSanked(letter, number)) System.out.println("You sank a ship! Specify a new target:");
+            else System.out.println("You hit a ship! Try again:\n");
         }
         else {
             this.field[let][num] = missed;
             printFoggedField();
-            System.out.println("You missed!\n");
+            System.out.println("You missed. Try again:\n");
         }
 
 
@@ -114,5 +147,4 @@ public class Field {
         }
         return true;
     }
-
 }
