@@ -123,18 +123,19 @@ public class Main {
             (" ~----( ~   Y.  )
             It looks like we will soon have more rabbits!""";
 
+        String[] animals = {camel, lion, deer, goose, bat, rabbit};
+
         // write your code here
         Scanner scanner = new Scanner(System.in);
-        String[] animals = {camel,lion,deer,goose,bat,rabbit};
-        String endMessage = """
-                ---
-                You've reached the end of the program. To check another habitat, please restart the watcher.
-                """;
 
-        System.out.print("Please enter the number of the habitat you would like to view: ");
-        int number = scanner.nextInt();
-
-        System.out.println(animals[number]);
-        System.out.println(endMessage);
+        while(true){
+            System.out.print("Please enter the number of the habitat you would like to view: ");
+            String text = scanner.next();
+            if(text.equals("exit"))
+                break;
+            int num = Integer.parseInt(text);
+            System.out.println(animals[num]);
+        }
+        System.out.println("See you later!");
     }
 }
