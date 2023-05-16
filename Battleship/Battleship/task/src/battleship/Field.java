@@ -14,27 +14,45 @@ public class Field {
     private final static char hit = 'X';
     private final static char[] letters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     private final char[][] field;
-    private ArrayList<Ship> listOfShips = new ArrayList<Ship>();
     private boolean endOfGame;
 
-    public boolean checkShipSanked(char letter, char number){
-        for(Ship ship : listOfShips){
+    public boolean checkShipSanked(char letter, char number, Player another){
+        if(letter == 'J' && number == ':') return true;
+        for(Ship ship : another.getListOfShips()){
             for(int i = 0; i < ship.getLength(); i++){
                 if(ship.getPosition()[0][i] == letter && ship.getPosition()[1][i] == number){   //Znajdujemy czy to pole nalezy do statku
                     char[][] shipPosition = ship.getPosition();
+
                     for(int j = 0; j < ship.getLength(); j++){
-                         if(field[shipPosition[0][j] - 'A' + 1][shipPosition[1][j] - '0'] == placedShip) return false;
+                         if(another.getField().field[shipPosition[0][j] - 'A' + 1][shipPosition[1][j] - '0'] == placedShip) return false;
                     }
                     return true;
                 }
             }
         }
-        return true;
+        if(letter == 'D' && number == '1') return true;
+        if(letter == 'J' && number == ':') return true;
+        return false;
     }
-    public void checkEndOfGame(){
+    /*public boolean checkShipSanked(char letter, char number){
+        for(Ship ship : this.listOfShips){
+            for(int i = 0; i < ship.getLength(); i++){
+                if(ship.getPosition()[0][i] == letter && ship.getPosition()[1][i] == number){   //Znajdujemy czy to pole nalezy do statku
+                    char[][] shipPosition = ship.getPosition();
+
+                    for(int j = 0; j < ship.getLength(); j++){
+                        if(this.field[shipPosition[0][j] - 'A' + 1][shipPosition[1][j] - '0'] == placedShip) return false;
+                    }
+                    return true;
+                }
+            }
+        }
+        return false;
+    }*/
+    public void checkEndOfGame(Player another){
         for(int i = 1; i < fieldSize; i++){
             for (int j = 1; j < fieldSize; j++){
-                if(field[i][j] == placedShip){
+                if(another.getField().field[i][j] == placedShip){
                     return;
                 }
             }
@@ -51,21 +69,22 @@ public class Field {
         endOfGame = false;
     }
 
-    public void shoot(char letter, char number){
+    public void shoot(char letter, char number, Player another){
         char let = (char) (letter - 'A' + 1);
         int num = number - '0';
-        if(this.field[let][num] == placedShip || this.field[let][num] == hit){
-            this.field[let][num] = hit;
-            printFoggedField();
-            checkEndOfGame();
+        if(another.getField().field[let][num] == placedShip){// || another.getField().field[let][num] == hit){
+            another.getField().field[let][num] = hit;
+            //printFoggedField();
+            checkEndOfGame(another);
             if(endOfGame) System.out.println("You sank the last ship. You won. Congratulations!");
-            else if(checkShipSanked(letter, number)) System.out.println("You sank a ship! Specify a new target:");
-            else System.out.println("You hit a ship! Try again:\n");
+            else if(checkShipSanked(letter, number, another)) System.out.println("You sank a ship!");
+            //else if(checkShipSanked(letter, number)) System.out.println("You sank a ship!");
+            else System.out.println("You hit a ship!\n");
         }
         else {
-            this.field[let][num] = missed;
-            printFoggedField();
-            System.out.println("You missed. Try again:\n");
+            another.getField().field[let][num] = missed;
+            //printFoggedField();
+            System.out.println("You missed!\n");
         }
 
 
@@ -107,7 +126,7 @@ public class Field {
 
     public void placeShip(Ship ship, char letter1, char number1, char letter2, char number2) {
         ship.placeShip(letter1, number1, letter2, number2);
-        listOfShips.add(ship);
+
 
         for (int i = 0; i < ship.getLength(); i++) {
             int letterPosition = 0;
